@@ -1,0 +1,40 @@
+{# Replace this with your base template #}
+{% extends "bootstrap5/base.html" %}
+
+{% load cms_tags %}
+{% cms_toolbar %} -> untuk menampilkan menu
+{% block main %}
+{% placeholder "main" %}
+{% endblock main %}
+
+tag library:
+admin_list
+admin_modify
+admin_style_tags
+admin_tree
+admin_tree_list
+admin_urls
+cache
+cms_admin
+cms_alias_tags
+cms_js_tags
+cms_static
+cms_tags
+djangocms_text_ckeditor_tags
+easy_thumbnails_tags
+fe_utilities
+filer_admin_tags
+filer_image_tags
+filer_tags
+frontend
+i18n
+icon_tags
+l10n
+log
+menu_tags
+parler_tags
+sekizai_tags
+snippet_tags
+static
+thumbnail
+tz
